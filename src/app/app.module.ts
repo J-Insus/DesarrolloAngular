@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NabvarComponent } from './components/nabvar/nabvar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PensamientoComputacionalComponent } from './components/pensamiento-computacional/pensamiento-computacional.component';
+import { HerramientasComponent } from './components/herramientas/herramientas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NabvarComponent,
+    FooterComponent,
+    PensamientoComputacionalComponent,
+    HerramientasComponent
   ],
   imports: [
     BrowserModule,
