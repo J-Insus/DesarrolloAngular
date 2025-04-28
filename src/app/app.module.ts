@@ -7,7 +7,7 @@ import { NabvarComponent } from './components/nabvar/nabvar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PensamientoComputacionalComponent } from './components/pensamiento-computacional/pensamiento-computacional.component';
 import { HerramientasComponent } from './components/herramientas/herramientas.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/home/home.component'; 
 import { APP_ROUTING } from './app.routes';
 
 @NgModule({
