@@ -8,7 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PensamientoComputacionalComponent } from './components/pensamiento-computacional/pensamiento-computacional.component';
 import { HerramientasComponent } from './components/herramientas/herramientas.component';
 import { HomeComponent } from './components/home/home.component';
-import { RouterModule } from '@angular/router';
+import { APP_ROUTING } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    APP_ROUTING
 
   ],
   providers: [],

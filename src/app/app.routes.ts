@@ -1,7 +1,8 @@
 import { RouterModule, Routes } from "@angular/router";
-import { HomeComponent } from './home/home.component';
-import { HerramientasComponent } from './herramientas/herramientas.component';
-import { PensamientoComputacionalComponent } from './pensamiento-computacional/pensamiento-computacional.component';
+import { HomeComponent } from './components/home/home.component';
+import { HerramientasComponent } from './components/herramientas/herramientas.component';
+import { PensamientoComputacionalComponent } from './components/pensamiento-computacional/pensamiento-computacional.component';
+import { NabvarComponent } from "./components/nabvar/nabvar.component";
 
 
 const APP_ROUTES:Routes=[
