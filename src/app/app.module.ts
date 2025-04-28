@@ -7,6 +7,8 @@ import { NabvarComponent } from './components/nabvar/nabvar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PensamientoComputacionalComponent } from './components/pensamiento-computacional/pensamiento-computacional.component';
 import { HerramientasComponent } from './components/herramientas/herramientas.component';
+import { HomeComponent } from './components/home/home.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { HerramientasComponent } from './components/herramientas/herramientas.co
     NabvarComponent,
     FooterComponent,
     PensamientoComputacionalComponent,
-    HerramientasComponent
+    HerramientasComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
