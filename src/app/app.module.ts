@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HerramientasService } from '../app/servicios/herramientas.service';
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NabvarComponent } from './components/nabvar/nabvar.component';
@@ -25,7 +28,9 @@ import { APP_ROUTING } from './app.routes';
     APP_ROUTING
 
   ],
-  providers: [],
+  providers: [
+    HerramientasService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

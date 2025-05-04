@@ -1,0 +1,8 @@
+.container>h1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 3.45rem;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 2rem;
+}
