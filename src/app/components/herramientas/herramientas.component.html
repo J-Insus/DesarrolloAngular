@@ -21,7 +21,9 @@
             <!--Servicio NG FOR-->
             <div class="col" *ngFor="let herramienta of herramientas">
                 <div class="card h-100 p-3">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{herramienta.img}}" class="card-img-top" alt="...">
+
+
                     <div class="card-body">
                         <h5 class="card-title">{{herramienta.nombre}}</h5>
                         <p class="card-text">{{herramienta.descripcion}}</p>
